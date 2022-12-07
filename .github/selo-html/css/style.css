@@ -928,7 +928,7 @@ ul.social_icon li a {
      color: #02246a;
 }
 
-ul.social_icon li a:hover {
+ul.social_icon li a:hover { 
      background-color: #fff;
      color: #fec955;
 }
