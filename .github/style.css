@@ -269,7 +269,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #fec955;
+     color: #dcba14;
      text-decoration: underline !important;
 }
 
@@ -277,7 +277,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fec955;
+     color:#dcba14;
      text-decoration: underline !important;
 }
 
@@ -360,7 +360,7 @@ button {
      color: #fff;
      font-size: 30px;
      top: -18px;
-     background: #ffca56;
+     background:#dcba14;
      z-index: 999999;
      width: 70px;
      height: 70px;
@@ -404,7 +404,7 @@ button {
 }
 
 #banner1 .carousel-indicators li.active {
-     background: #ffca56;
+     background: #dcba14;
      border: #fff solid 6px;
      width: 25px;
      height: 25px;
@@ -433,7 +433,7 @@ button {
 }
 
 .text-bg a:hover {
-     background-color: #ffca56;
+     background-color:#dcba14;
      color: #fff;
      transition: ease-in all 0.5s;
 }
@@ -448,7 +448,7 @@ button {
 
 .titlepage h2 {
      font-size: 40px;
-     color: #02246a;
+     color: #530702;
      line-height: 55px;
      padding: 0;
 }
@@ -460,14 +460,16 @@ button {
 }
 
 .blu {
-     color: #0808ff;
+     color: #530702;
 }
 
 .read_more {
      font-size: 17px;
      background-color: transparent;
-     border: #ffca56 solid 2px;
-     color: #ffca56 !important;
+     border: #dcba14
+     solid 2px;
+     color: #dcba14
+     !important;
      padding: 13px 0px;
      width: 100%;
      max-width: 190px;
@@ -478,7 +480,7 @@ button {
 }
 
 .read_more:hover {
-     background: #02246a;
+     background:#530702;
      color: #fff;
      transition: ease-in all 0.5s;
 }
@@ -507,7 +509,8 @@ button {
 }
 
 .team .titlepage h3 {
-     color: #ffca56;
+     color: #dcba14
+     ;
      font-size: 24px;
      line-height: 24px;
      font-weight: bold;
@@ -515,7 +518,7 @@ button {
 }
 
 .team .titlepage strong {
-     color: #02246a;
+     color: #530702;
      font-size: 40px;
      line-height: 35px;
      font-weight: bold;
@@ -558,7 +561,7 @@ button {
 }
 
 .services .services_box i {
-     background-color: #02246a;
+     background-color:#530702;
      height: 143px;
      width: 143px;
      border-radius: 70px;
@@ -570,7 +573,7 @@ button {
 }
 
 .services .services_box h3 {
-     color: #02246a;
+     color: #530702;
      font-size: 25px;
      line-height: 20px;
      font-weight: 500;
@@ -593,12 +596,12 @@ button {
      cursor: pointer;
      box-shadow: 0px 0px 30px rgba(57, 56, 56, 0.2);
      background-color: #fff;
-     border-top: #f8c659 solid 6px;
+     border-top: #dcba14 solid 6px;
      transition: ease-in all 0.5s;
 }
 
 #serv_hover:hover.services_box h3 {
-     color: #f8c659;
+     color: #dcba14;
      transition: ease-in all 0.5s;
 }
 
@@ -663,7 +666,7 @@ button {
 }
 
 .ideas .titlepage h2 {
-     color: #02246a;
+     color: #530702
 }
 
 .border_trbl {
@@ -683,7 +686,7 @@ button {
      color: #fff;
      font-size: 40px;
      font-weight: bold;
-     background: #02246a;
+     background:#530702;
      width: 180px;
      margin: 0 auto;
      border-radius: 121px;
@@ -692,7 +695,7 @@ button {
      align-items: center;
      justify-content: center;
      padding: 0;
-     border: #ffca56 solid 11px;
+     border: #dcba14 solid 11px;
 }
 
 .ideas_box p {
@@ -723,7 +726,7 @@ button {
 }
 
 .testimonial .titlepage h2 {
-     color: #02246a;
+     color:#530702;
 }
 
 .testimonial .titlepage p {
@@ -743,7 +746,7 @@ button {
 }
 
 .test_icon i {
-     border: #02246a solid 9px;
+     border:#530702 solid 9px;
      border-radius: 40px;
 }
 
@@ -758,7 +761,8 @@ button {
 }
 
 .yellow {
-     color: #ffca56;
+     color: #dcba14
+     a56;
 }
 
 .test_box p {
@@ -1043,7 +1047,7 @@ ul.link_menu li a:hover {
 }
 
 .copyright a:hover {
-     color: #ffca56;
+     color: #dcba14;
 }
 
 
@@ -1053,7 +1057,7 @@ ul.link_menu li a:hover {
 /** inner page css **/
 
 .inner_header .header {
-     background: #02246a;
+     background: #530702;
      position: inherit;
 }
 
@@ -1062,7 +1066,7 @@ ul.link_menu li a:hover {
 }
 
 .yellow_darkbg {
-     background: #f8c659;
+     background: #dcba14;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -1074,7 +1078,7 @@ ul.link_menu li a:hover {
 }
 
 .about_page .team .titlepage h3 {
-     color: #02246a;
+     color: #530702;
 }
 
 .about_page .team .titlepage p {
@@ -1104,7 +1108,7 @@ ul.link_menu li a:hover {
      font-size: 30px;
      line-height: 30px;
      padding: 30px 0px 40px 0px;
-     color: #02246a;
+     color: #530702;
 }
 
 .blog .blog_box figure {
