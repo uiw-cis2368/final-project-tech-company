@@ -810,7 +810,7 @@ button {
 }
 
 .contact .titlepage h2 {
-     color: #02246a;
+     color: #530702;
 }
 
 .main_form {
@@ -818,7 +818,7 @@ button {
 }
 
 .main_form .contactus {
-     border: #02246a solid 1px;
+     border:#530702 solid 1px;
      margin-bottom: 25px;
      width: 100%;
      height: 47px;
@@ -832,7 +832,7 @@ button {
 }
 
 .main_form .contactus1 {
-     border: #02246a solid 1px;
+     border: #530702 solid 1px;
      margin-bottom: 25px;
      width: 100%;
      height: 47px;
@@ -861,7 +861,7 @@ button {
 }
 
 .main_form .send_btn:hover {
-     background-color: #02246a;
+     background-color: #530702;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -886,7 +886,7 @@ button {
 /** footer **/
 
 .footer {
-     background: #02246a;
+     background: #530702;
      padding-top: 115px;
      text-align: center;
 }
@@ -929,7 +929,7 @@ ul.social_icon li a {
      font-size: 25px;
      border-radius: 30px;
      margin: 0 3px;
-     color: #02246a;
+     color: #530702;
 }
 
 ul.social_icon li a:hover {
