@@ -1120,3 +1120,22 @@ ul.link_menu li a:hover {
      margin: 0 auto;
      display: block;
 }
+.aboutmorebutton{
+     color: #02246a;
+}
+.aboutcreators{
+     width: 55%;
+    
+}
+.aboutcreators h1{
+     color: #02246a;
+}
+.btn-primary{
+     color: #02246a;
+}
+.team_imguiw{
+     margin: auto 700px;
+    float: left;
+    width: 300px;
+    height: 100px;
+}

@@ -32,6 +32,7 @@ body{
 	align-items: center;
 }
 
+<<<<<<< Updated upstream
 .hero img{
 	top: 0;
 	width: 100%;
@@ -306,3 +307,8 @@ body{
 	left:10px;
 	color: white;
 }
+=======
+.content {
+    padding-bottom: 20px !important;
+}
+>>>>>>> Stashed changes
