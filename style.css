@@ -24,7 +24,7 @@ body{
 
 .hero{
 	width: 100%;
-	height: 100vh;
+	height: 140vh;
 	overflow: hidden;
 	position: relative;
 	display: flex;
@@ -32,7 +32,6 @@ body{
 	align-items: center;
 }
 
-<<<<<<< Updated upstream
 .hero img{
 	top: 0;
 	width: 100%;
@@ -86,43 +85,67 @@ body{
 	color: #760903;
 	margin-bottom: 30px;
 }
-.socials{
+.social{
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 50vh;
-	background-color: #530702;
+	background-color: #760903;
 	gap: 20%;
 }
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Montserrat&display=swap');
-
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto Mono', monospace;
-	box-sizing:border-box;
-	color: grey;
-	letter-spacing: 1px;
-	transition: 0.5s ease-in-out;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	font-family: 'Montserrat', sans-serif;
+.social::before{
+	content: "";
+	width: 110%;
+	height: 30vh;
+	bottom: 130px;
+	background-color: #76090330;
+	transform: rotate(10deg);
+	position: absolute;
+	z-index: -10;
 }
-:root{
-	--mainColor:#760903;
-	--secondaryColor:#dcba14;
+.social::after{
+	content: "";
+	width: 110%;
+	height: 30vh;
+	bottom: 130px;
+	background-color: #76090320;
+	transform: rotate(-10deg);
+	position: absolute;
+	z-index: -10;
 }
-body{
+.social-box a{
+	width: 150px;
+	aspect-ratio: 1/1;
+	border-radius: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	flex-direction: column;
+	text-decoration: none;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	color: white;
+	font-weight: bold;
 }
+.social-box:hover{
+	background-color: white;
+	color: black;
+}
+.developed-by{
+	position: absolute;
+	bottom: 10px;
+	left:10px;
+	color: white;
+}
+
+/*
+contact form
+*/
 
 .Contact{
 	width: 100vw;
-	height: 100vh;
+	height: 70vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -186,7 +209,7 @@ body{
 	font-weight: bold;
 }
 .socials{
-	
+	background-color: #dcba14;
 	border-radius: 10px;
 	display: flex;
 	justify-content: center;
@@ -264,51 +287,3 @@ body{
 	width: 20%;
 	padding: 10px;
 }
-.socials::before{
-	content: "";
-	width: 110%;
-	height: 30vh;
-	bottom: 130px;
-	background-color: #76090330;
-	transform: rotate(10deg);
-	position: absolute;
-	z-index: -10;
-}
-.socials::after{
-	content: "";
-	width: 110%;
-	height: 30vh;
-	bottom: 130px;
-	background-color: #76090320;
-	transform: rotate(-10deg);
-	position: absolute;
-	z-index: -10;
-}
-.social-box a{
-	width: 150px;
-	aspect-ratio: 1/1;
-	border-radius: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	text-decoration: none;
-	box-shadow: 0 0 20px rgba(0,0,0,0.2);
-	color: #ffffff;
-	font-weight: bold;
-}
-.social-box:hover{
-	background-color: white;
-	color: black;
-}
-.developed-by{
-	position: absolute;
-	bottom: 10px;
-	left:10px;
-	color: white;
-}
-=======
-.content {
-    padding-bottom: 20px !important;
-}
->>>>>>> Stashed changes
